@@ -19,7 +19,15 @@
     max-width: calc(100% - 48px);
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 16px;
+    padding-top: 88px;
   }
+}
+
+@media screen and (max-width:767px) {
+  .photo-grid {
+    padding-top: 64px;
+  }
+  
 }
 
 @media  screen and (max-width: 425px) {
