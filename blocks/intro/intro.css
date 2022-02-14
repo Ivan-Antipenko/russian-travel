@@ -1,4 +1,5 @@
 .intro {
+  color: white;
   padding-top: 92px;
   max-width: 984px;
   margin: 0 auto;
@@ -9,12 +10,12 @@
     max-width: calc(100% - 96px);
   }
 }
-@media (min-width:426px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .intro {
     max-width: calc(100% - 48px);
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   .intro {
     max-width: calc(100% - 32px);
   }
