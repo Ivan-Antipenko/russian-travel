@@ -1,6 +1,5 @@
 .header {
   max-width: calc(100% - 96px);
-  max-height: 52px;
   margin: 0 auto;
   padding-top: 28px;
   display: flex;
@@ -18,6 +17,5 @@
   .header {
     max-width: calc(100% - 32px);
     padding-top: 16px;
-    max-height: 42px;
   } 
 }
